@@ -1,0 +1,180 @@
+.noteCard {
+  
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  width: 250px;
+  min-height: 120px;
+  // max-height: 300px; 
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: block;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Icons Row */
+.noteIcons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  position: absolute;
+  bottom: 2px;
+  width: 90%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Show Icons on Hover */
+.noteCard:hover .noteIcons {
+  opacity: 1;
+}
+
+/* Icon Style */
+.icon {
+  font-size: 18px;
+  color: gray;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+  }
+}
+
+
+.colorPalette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 400px;
+  z-index: 10;
+}
+
+.color-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Colors */
+.col1 { background-color: #FFFFFF; border: 1px solid #e7e7bc; }
+.col2 { background-color: #FAAFA8; }
+.col3 { background-color: #F39F76; }
+.col4 { background-color: #FFF8B8; }
+.col5 { background-color: #E2F6D3; }
+.col6 { background-color: #B4DDD3; }
+.col7 { background-color: #D4E4ED; }
+.col8 { background-color: #AECCDC; }
+.col9 { background-color: #D3BFDB; }
+.col10 { background-color: #F6E2DD; }
+.col11 { background-color: #E9E3D4; }
+.col12 { background-color: #EFEFF1; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reminder {
+  font-size: 10px;
+  color: #565454;
+  background: #e4e3e3;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: fit-content;
+  margin-top: -8px !important;
+  margin-bottom: 25px !important;
+
+}
+
+.reminderIcon {
+  font-size: 10px !important;
+  color: #565454;
+}
+
+.clearReminderIcon {
+  font-size: 10px !important;
+  color: #5f6368;
+  cursor: pointer;
+  &:hover {
+    color: #000000;
+    font-size: 15px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

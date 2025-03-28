@@ -1,0 +1,109 @@
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 79px;
+  }
+  
+  .menuItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+    border-radius: 50px;
+    // border-radius: 8px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #FFF9C4;
+    }
+  
+    .icon {
+      margin-right: 15px;
+      color: #5f6368;
+    }
+  
+    span {
+      font-size: 16px;
+      color: #202124;
+    }
+  }
+  
+
+  .active {
+    background: white; /* Light Yellow Background */
+    .icon {
+      color: #fbbc04; /* Google Keep Yellow */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+//   /* 📲 Tablet View (501px - 1024px) */
+// @media screen and (min-width: 501px) and (max-width: 1024px) {
+//     .sidebar {
+//         height: 60vh;
+//         width: 10vw;
+//     }
+// }
+
+
+
+//   /* 📲 Mobile View (501px - 1024px) */
+// @media screen and (min-width: 200px) and (max-width: 500px) {
+//     .sidebar {
+//         height: 60vh;
+//         width: 10vw;
+//     }
+// }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

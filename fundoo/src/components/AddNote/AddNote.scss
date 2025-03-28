@@ -1,0 +1,81 @@
+$note-width: 400px;
+$border-radius: 10px;
+$box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+$box-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+.note-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.take-note {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: $box-shadow-hover;
+    }
+
+    span {
+        color: #555;
+        font-size: 16px;
+    }
+}
+
+
+
+
+.take-note-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: auto;
+    color: #555;
+}
+.note-expanded {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-hover;
+
+    input {
+        border: none;
+        outline: none;
+        font-size: 16px;
+        margin-bottom: 8px;
+        padding: 5px;
+    }
+
+    button {
+        align-self: flex-end;
+        margin-top: 10px;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f1f3f4;
+        cursor: pointer;
+    }
+}
+
+
+
+.note-icons-close{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.close-btn{
+    margin-top: -0.7rem;
+}

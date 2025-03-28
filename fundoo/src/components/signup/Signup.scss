@@ -1,0 +1,114 @@
+// Global Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .fundoo-signup{
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .fundoo-signup-box {
+    width: 60vw;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1.5px solid rgb(195, 194, 194);
+    text-align: left;
+    
+    
+    .fundoo-signup-box-line1  { 
+      font-size: 20px;
+      font-weight: bold;
+      color: orange;
+      margin-bottom: 1rem;
+    }
+  
+    .fundoo-signup-box-line2  {
+      font-size: 18px;
+      font-weight: 500;
+      color: #333;
+      margin-bottom: 1rem;
+
+    }
+
+    
+    #signup-img{
+    width: 19vw;
+    margin-left: 30rem;
+    margin-bottom: -21rem;
+    }
+
+
+
+  
+    .fundoo-signup-box-line3-box
+    {
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    #email{
+        width: 28vw;
+    }
+    
+    .fundoo-signup-box-line5{
+        margin-top: 0.3rem;
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
+
+    .fundo-signup-box-line6-box{
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.3rem;
+    }
+    .fundoo-signup-box-line7{
+        font-size: 12px;
+        margin-bottom: 3rem;
+    }
+
+    .signin-btn{
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .register-btn{
+        margin-top: -3rem;
+        margin-left: 21rem;
+    }
+  }
+
+
+  .fundo-signup-box2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 5px;
+    color: grey;
+
+
+    .fundoo-signup-box2-1{
+        margin-left: 0.3rem;
+    }
+
+    .fundoo-signup-box2-2{
+        margin-left: 29rem;
+    }
+    
+}  
